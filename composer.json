@@ -22,7 +22,7 @@
         "magento/module-customer-import-export": "100.4.*"
     },
     "repositories": {
-        "wireit/module-customerimport2": {
+        "iammanish/module-customerimport": {
             "type": "git",
             "url": "https://github.com/IamManish/Magento2-CustomerImport"
         }
