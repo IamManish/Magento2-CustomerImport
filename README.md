@@ -1,6 +1,6 @@
 # Mage2 Module MR CustomerImport
 
-    ``mr/module-customerimport``
+    ``iammanish/module-customerimport``
 
  - [Main Functionalities](#markdown-header-main-functionalities)
  - [Installation](#markdown-header-installation)
