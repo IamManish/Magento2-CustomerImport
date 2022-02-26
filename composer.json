@@ -1,0 +1,38 @@
+{
+    "name": "mr/module-customerimport",
+    "description": "Customer Import via CSV & JSON",
+    "type": "magento2-module",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Manish R.",
+            "email": "manish.ranjan@outlook.in"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "~7.3.0||~7.4.0",
+        "magento/framework": "103.0.*",
+        "magento/module-backend": "102.0.*",
+        "magento/module-customer": "103.0.*",
+        "magento/module-directory": "100.4.*",
+        "magento/module-eav": "102.1.*",
+        "magento/module-import-export": "101.0.*",
+        "magento/module-store": "101.1.*",
+        "magento/module-customer-import-export": "100.4.*"
+    },
+    "repositories": {
+        "wireit/module-customerimport2": {
+            "type": "git",
+            "url": "https://github.com/IamManish/Magento2-CustomerImport"
+        }
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MR\\CustomerImport\\": ""
+        }
+    }
+}
