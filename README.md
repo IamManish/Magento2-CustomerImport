@@ -33,8 +33,15 @@ Customer Import
 ## Specifications and Usage
 
 - Console Command
- - JSON profile - Place json inside var/import/ folder -   php bin/magento customer:import json var/import/sample.json
- - CSV profile - Place CSV inside var/import/ folder -     php bin/magento customer:import csv var/import/sample.csv
- - Once we run our customer import script, we also need to make sure to re-index the Customer Grid indexer - php bin/magento indexer:reindex customer_grid 
+ - JSON profile - Place json inside var/import/ folder -   
+    php bin/magento customer:import json var/import/sample.json
+
+
+ - CSV profile - Place CSV inside var/import/ folder -     
+    php bin/magento customer:import csv var/import/sample.csv
+
+
+ - Once we run our customer import script, we also need to make sure to re-index the Customer Grid indexer - 
+    php bin/magento indexer:reindex customer_grid 
 
 
